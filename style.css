@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+/* position: relative; */
+
+}
+nav{
+    position: relative;
+ 
+}
+nav .mycontainer{
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+position: fixed;
+z-index: 3;
+background-color: white;
+color: black;
+width: 100%;
+
+}
+.logo img{
+    width: 78px;
+}
+.navlist ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navlist ul li{
+   margin:14px;
+    list-style-type:none; 
+    font-weight: bold;
+    font-size: smaller;
+    
+}
+.call{
+    display: flex;
+}
+.slidebar{
+   width: 90;
+}
+.hillside{
+    margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding:5px 10%;
+}
+.hillui ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between; 
+    width: 100%;
+   
+}
+.hillui ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+  
+}
+.hillui ul li h6{
+  
+    font-weight: lighter;
+    font-size: x-small;
+}
+.key-hilights{
+    padding:5px 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 70px;
+}
+.content{
+    margin: 0 0 10px 0 ;
+}
+.key-hilights .content p{
+    
+    display: flex;
+    gap: 15px;
+
+    /* justify-content: center; */
+}
+.key-hilights .heading1{
+    margin-bottom:15px ;
+}
+
+.common_class .image img{
+    /* width: 50px;
+    height: 50px; */
+    filter: invert();
+    /* fill: aliceblue; */
+}
+.importance{
+    padding:5px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    background: rgb(230, 217, 219);
+    padding-bottom: 40px;
+}
+.importance h2{
+    margin-top: 50px;
+    
+}
+.common_class {
+    width: 250px;
+    height: 200px;
+    background-color:rgb(230, 217, 219);
+    align-content: space-evenly;
+   padding: 20px;
+}
+.common_class .image1 img{
+    width: 90px;
+}
+.common_class .image1 span{
+    width: 90px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 240px 240px ;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    place-content: center;
+    margin-top: 50px;
+    row-gap: 34px;
+ 
+}
+.imagesparent {
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 240px 240px ;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    place-content: center;
+    margin-top: 50px;
+    row-gap: 34px;
+ 
+}
+
+.image-card {
+    width: 250px;
+    height: 200px;
+    background-color:rgb(230, 217, 219);
+    align-content: space-evenly;
+  
+}
+.image-card img{
+    width: 250px;
+    height: 200px;
+   object-fit: cover;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.photo h2{
+    margin-top: 70px;
+    margin-bottom: 0;
+    
+}
+.first-amenities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first-amenities h2{
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+.amenitiesparent{
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-template-rows: 140px 140px ;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    place-content: center;
+    margin-top: 50px;
+    row-gap: 34px;
+}
+.amenities-card{
+    width: 250px;
+    height: 145px;
+    background-color:pink;
+    align-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 35px;
+}
+.amenities-card img{
+    width: 50px;
+    height: 50px;
+   object-fit: cover;
+}
+.amenities-card h6{
+    padding: 15px;
+    color: white;
+}
+.floor-plans{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+.floor-plans h2{
+    padding-bottom: 8px;
+}
+.plan-image{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 24px;
+}
+.imgp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+margin-top: 40px;
+border-radius: 5px;
+}
+.imgp img{
+    width: 270px;
+    height: 180px;
+    border-radius: 5px;
+    opacity: 0.2;
+}
+.imgp span{
+   border-top: 0.5px solid rgb(217, 214, 214);
+   width: 100%;
+   text-align: center;
+   padding: 10px;
+}
+.btn1{
+    margin: 30px 5px 0 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 3px 8px 3px 8px;
+   
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.tab{
+    width: 70%;
+}
+.tablerow-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+   
+}
+.price>h2{
+    margin-bottom: 40px;
+}
+.button-table{
+    background-color: rgb(184, 222, 177);
+    border: 2px solid rgb(184, 222, 177);
+    border-radius: 2px;
+    padding: 0px 5px;
+}
+.btn-price-what{
+    margin: 30px 5px 0 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 3px 8px 3px 8px;
+   
+}
+.virtual-tour{
+    background-color: rgb(191, 219, 149);
+    margin-top: 90px;
+    color: white;
+    padding: 30px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* .virtual-tour .image{
+    height: 70%;
+} */
+.virtual-tour h2{
+    padding: 20px;
+}
+.btn-luxury{
+    margin: 30px;
+    padding: 5px 10px;
+    background-color:  rgb(140, 174, 89);
+    border-radius:4px;
+}
+.btn-luxury button{
+    background-color:  rgb(140, 174, 89);
+    border: none;
+    color: white;
+}
+/* .virtual-tour .image img{
+    width: 200%;
+    height: 50%;
+    
+} */
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    gap: 30px;
+}
+.contact .contact-info{
+    width: 40%;
+    gap: 20px;
+}
+.contact .contact-info h2{
+    margin-top: 20px;
+}
+.contact-info img{
+
+    width: 100px;
+    height: 80px;
+}
+.form{
+  border: 1px solid rgb(197, 196, 196);
+  width: 35%;
+  padding-bottom: 20px;
+ background-color: rgb(197, 211, 175);
+  border-radius: 5px;
+}
+.form h2{
+    background-color: rgb(156, 214, 69);
+    padding: 20px 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ margin-top:0;
+}
+.head-form input{
+    margin-left: 5px;
+    width: 98%;
+    margin-top:10px;
+    height: 50px;
+}
+.head-form{
+    margin-left: 5px;
+    width: 98%;
+    margin-top:15px;
+    height: 50px;
+}
+.btn-form{
+    padding-top: 10px;
+    
+}
+.btn-form button{
+    width: 99%;
+    padding: 10px ;
+    border-radius: 6px;
+    background-color: rgb(156, 214, 69);
+}
+.know-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.know-more button{
+    background-color: rgb(194, 227, 144);
+padding: 3px 10px;
+border-radius: 5px;
+border: 1px solid  rgb(194, 227, 144);
+}
+footer{
+    margin-top: 50px;
+    background-color: black;
+    color: rgb(96, 86, 86);
+    padding-top: 50px;
+}
+.foter-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.disclimer{
+    width: 35%;
+    color: rgb(96, 86, 86);
+    font-size: small;
+}
+.contact-us{
+    width: 35%;
+    font-size: small;
+}
+.phone-call{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.location-con img{
+    width: 15px;
+    height: 15px;
+   opacity: 0.4;
+}
+.whats-app img{
+    width: 15px;
+    height: 15px;
+   opacity: 0.4;
+}
+.comm{
+    padding: 5px;
+}
